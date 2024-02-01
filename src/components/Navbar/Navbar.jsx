@@ -35,9 +35,9 @@ function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a className="nav-link" href="/">Home</a>
-                        </li>
+                        </li> */}
                         {/* <li className="nav-item">
                             <a className="nav-link" href="/team">Team</a>
                         </li> */}
@@ -45,7 +45,7 @@ function Navbar() {
                             <a className="nav-link" target="_blank" href="https://www.climatebug.se/">climateBUG <FontAwesomeIcon icon={faExternalLinkAlt} /></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/contact">Contact</a>
+                            <a className="nav-link" href="/#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
