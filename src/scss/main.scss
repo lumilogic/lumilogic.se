@@ -1,0 +1,69 @@
+// main.scss
+
+@import 'utilities/variables';
+@import 'utilities/theme';
+@import '~bootstrap/scss/bootstrap';
+
+// Global styles, including those for the navbar, can go here...
+
+h1 {
+    font-weight: bold;
+}
+
+.hero-section {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 120px;
+
+    width: 100%; // spans the full viewport width
+    // height: 100vh; // spans the full viewport height
+    height: auto; // This allows the section to expand based on content
+    min-height: 100vh; // Ensures it's at least the full viewport height
+
+    // background: url('@assets/images/hero-bg2.jpg') no-repeat center center;
+    background: linear-gradient(transparent,
+            rgba(0, 0, 0, 0.5)),
+        url('@assets/images/hero-bg2.jpg') no-repeat center center;
+    background-size: cover; // ensures the background image covers the entire section
+
+    // Optional: Add a gradient or overlay if you want to darken/lighten the image
+
+
+    color: #fff; // Sets the text color to white for all child elements
+
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: 1.25rem;
+        margin-bottom: 2rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+
+    .container .img-fluid {
+        max-width: 400px;
+        /* Adjust based on your needs */
+        margin: 2.5rem;
+        /* Center the image in its container */
+    }
+
+    .hero-small-logo {
+        height: 2.5rem;
+        width: auto;
+        margin-right: 0.5rem;
+    }
+}
+
+.glassy-box {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    // box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: none;
+}
