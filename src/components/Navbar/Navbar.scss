@@ -1,0 +1,75 @@
+// @import "../../styles/utilities/theme"; // Import theme to access theme-specific variables
+
+.navbar {
+    // position: absolute; // This is important for z-index to take effect
+    // z-index: 1030; // Bootstrap's default z-index value for navbars
+    // width: 100%;
+    // transition: background-color 0.3s ease;
+    // backdrop-filter: blur(10px);
+    // background-color: rgba($navbar-bg, 0.4);
+    // border: none;
+    // padding: 1rem 0;
+
+    backdrop-filter: blur(10px);
+    background-color: rgba($navbar-bg, 0.4);
+
+
+
+
+    // 
+
+    .scrolled {
+        background-color: rgba($navbar-bg, 0.8);
+    }
+
+    .navbar-brand {
+        color: $navbar-font-color;
+        font-size: 1.5rem;
+        font-weight: bold;
+
+        &:hover,
+        &:visited,
+        &:active {
+            color: $navbar-font-color;
+        }
+
+        .navbar-logo {
+            height: 2.5rem;
+            width: auto;
+            margin-right: 0.5rem;
+        }
+    }
+
+    .navbar-nav {
+        .nav-link {
+            color: $navbar-font-color;
+            padding: 0.5rem 1rem;
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: lighten($navbar-font-color, 10%);
+                text-decoration: underline;
+            }
+
+            // &.active {
+            //     font-weight: bold;
+            // }
+        }
+    }
+
+    .navbar-toggler {
+        border: none;
+
+        .navbar-toggler-icon {
+            background-color: $navbar-font-color;
+        }
+    }
+
+    .nav-item {
+        margin-right: 15px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

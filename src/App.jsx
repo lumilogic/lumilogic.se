@@ -2,9 +2,9 @@ import React from 'react';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-// import Navbar from './components/Navbar/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import Home from './views/Home/Home';
-// import Contact from './views/Contact/Contact';
+import Contact from './views/Contact/Contact';
 // import Team from './views/Team/Team';
 
 
@@ -13,12 +13,13 @@ function App() {
     <Router>
       <div className="bg-dark text-white min-vh-100 d-flex flex-column">
 
-        {/* <Navbar /> */}
+        <Navbar />
         <div className="container flex-grow-1">
           <Routes>
             <Route path="/" element={<Home />} />
-            {/* <Route path="/home" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
+            {/* <Route path="/home" element={<Home />} />
+            
             <Route path="/team" element={<Team />} /> */}
             {/* Other routes can be added here */}
           </Routes>

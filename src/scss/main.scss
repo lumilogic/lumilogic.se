@@ -48,6 +48,8 @@ h1 {
     }
 
     .container .img-fluid {
+        // padding: 1rem;
+
         max-width: 400px;
         /* Adjust based on your needs */
         margin: 2.5rem;
@@ -62,9 +64,10 @@ h1 {
 }
 
 .glassy-box {
+    // padding-top: 120px;
     // padding: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    // margin-left: 1rem;
+    // margin-right: 1rem;
     background-color: rgba(0, 0, 0, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.3);
     // box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
