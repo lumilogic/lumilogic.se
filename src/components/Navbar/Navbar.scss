@@ -1,5 +1,8 @@
 // @import "../../styles/utilities/theme"; // Import theme to access theme-specific variables
 
+
+
+
 .navbar {
     // position: absolute; // This is important for z-index to take effect
     // z-index: 1030; // Bootstrap's default z-index value for navbars
@@ -13,6 +16,30 @@
     backdrop-filter: blur(10px);
     background-color: rgba($navbar-bg, 0.4);
 
+    .dropdown-menu {
+        backdrop-filter: blur(10px);
+        background-color: rgba($navbar-bg, 0.8);
+
+
+
+
+    }
+
+
+    .dropdown-item {
+        color: white;
+
+        &:hover {
+            color: white;
+            background-color: rgba($navbar-bg, 0.8);
+        }
+    }
+
+
+
+    .nav-link.show {
+        color: white !important;
+    }
 
 
 
@@ -46,14 +73,21 @@
             padding: 0.5rem 1rem;
             transition: color 0.3s ease;
 
+            .show {
+                color: $navbar-font-color;
+                font-weight: bold;
+            }
+
             &:hover {
                 color: lighten($navbar-font-color, 10%);
                 text-decoration: underline;
             }
 
             // &.active {
+            //     color: $navbar-font-color;
             //     font-weight: bold;
             // }
+
         }
     }
 
@@ -61,7 +95,8 @@
         border: none;
 
         .navbar-toggler-icon {
-            background-color: $navbar-font-color;
+            // background-color: $navbar-font-color;
+            border: none;
         }
     }
 

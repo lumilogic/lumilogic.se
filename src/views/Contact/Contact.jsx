@@ -1,28 +1,46 @@
 import React from 'react';
-import './Contact.scss'; // Importing the SCSS file for the Home component
-import logo from '@assets/images/logo.png'; // Import the logo image
+import './Contact.scss'; // Importing the SCSS file for the Contact component
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSquareUpRight } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin, faGoogleScholar } from '@fortawesome/free-brands-svg-icons';
+
 
 function Contact() {
     return (
-        // <div className="d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
+        <div className="contact-page">
+            <div className="hero-section">
+                <div className="container my-5">
+                    <div className="row justify-content-center">
+                        <div className="col-lg-8">
+                            <div className="glassy-box p-4 rounded shadow">
+                                <h1>Contact Us</h1>
+                                <p>
+                                    Whether you have questions about our solutions, want to discuss a potential collaboration, or simply want to learn more about what we do, we’re here to help. Reach out to us using the information below, and we’ll get back to you promptly.
+                                </p>
 
-        <div className="hero-section">
-            <div className="container">
+                                <h3>Email</h3>
+                                <p>
+                                    <a href="mailto:contact@lumilogic.se" className="btn btn-secondary">contact@lumilogic.se</a>
+                                </p>
 
-                {/* Team Summary */}
-                <div className="row mb-5">
-                    <div className="col">
-                        <div className="glassy-box text-center p-4 rounded shadow">
-                            <h1 className="mb-5">Contact Us</h1>
-                            <p>If you have any questions or would like to get in touch, feel free to reach us at:</p>
-                            <p><a href="mailto:contact@lumilogic.se" className="btn btn-primary">contact@lumilogic.se</a></p>
+                                <h3>Follow Us</h3>
+                                <p>Stay updated on our latest developments and insights by following us on social media:</p>
+
+                                <p>
+                                    <a href="https://www.linkedin.com/company/lumilogic/" className='social_icon' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a> <a href="https://www.linkedin.com/company/lumilogic/" className='social_icon' target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                                </p>
+
+
+                                <h3>Call Us</h3>
+                                <p>
+                                    +46 76-062 00 58<br />
+
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-
             </div>
-
         </div >
     );
 }

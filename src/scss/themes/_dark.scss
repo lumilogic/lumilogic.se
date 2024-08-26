@@ -1,8 +1,27 @@
-// _dark.scss
+// // _dark.scss
 
-$primary: #2c3e50;
-$secondary: #34495e;
-$bg-color: #333;
-$font-color: #f7f7f7;
-$navbar-bg: #2c3e50;
-$navbar-font-color: #f7f7f7;
+// $primary: #2c3e50;
+// $secondary: #34495e;
+// $bg-color: #333;
+// $font-color: #f7f7f7;
+// $navbar-bg: #2c3e50;
+// $navbar-font-color: #f7f7f7;
+
+
+// Define primary theme colors
+$primary: #467bb5;
+$secondary: #0b2b82;
+$success: #f9cf13;
+$warning: #fb965b;
+$info: #cdcef0;
+
+// Additional color assignments
+$dark: #121212; // Dark background
+$light: #ffffff; // Light text
+
+// Neutral colors for background and text
+$body-bg: $dark;
+$body-color: $light;
+
+$navbar-bg: $dark;
+$navbar-font-color: $light;

@@ -4,34 +4,35 @@
 @import 'utilities/theme';
 @import '~bootstrap/scss/bootstrap';
 
-// Global styles, including those for the navbar, can go here...
-
 h1 {
     font-weight: bold;
 }
 
 .hero-section {
-
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative; // Changed from absolute to relative
     padding-top: 120px;
+    width: 100%;
+    // height: auto;
+    min-height: 500px;
 
-    width: 100%; // spans the full viewport width
-    // height: 100vh; // spans the full viewport height
-    height: auto; // This allows the section to expand based on content
-    min-height: 100vh; // Ensures it's at least the full viewport height
-
-    // background: url('@assets/images/hero-bg2.jpg') no-repeat center center;
-    background: linear-gradient(transparent,
-            rgba(0, 0, 0, 0.5)),
+    background: linear-gradient(transparent, $body-bg),
         url('@assets/images/hero-bg2.jpg') no-repeat center center;
-    background-size: cover; // ensures the background image covers the entire section
-
-    // Optional: Add a gradient or overlay if you want to darken/lighten the image
+    background-size: cover;
 
 
-    color: #fff; // Sets the text color to white for all child elements
+}
+
+
+.hero-box {
+
+
+    // min-width: 700px;
+    padding: 2rem;
+    margin: 1rem 0;
+
+    color: #fff;
+
+    // width: 80%;
 
     h1 {
         font-size: 2.5rem;
@@ -47,13 +48,9 @@ h1 {
         font-size: 1rem;
     }
 
-    .container .img-fluid {
-        // padding: 1rem;
-
+    .img-fluid {
         max-width: 400px;
-        /* Adjust based on your needs */
         margin: 2.5rem;
-        /* Center the image in its container */
     }
 
     .hero-small-logo {
@@ -61,15 +58,25 @@ h1 {
         width: auto;
         margin-right: 0.5rem;
     }
+
 }
 
+
 .glassy-box {
-    // padding-top: 120px;
-    // padding: 1rem;
-    // margin-left: 1rem;
-    // margin-right: 1rem;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.4);
     border: 1px solid rgba(255, 255, 255, 0.3);
-    // box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    backdrop-filter: none;
+    backdrop-filter: blur(10px); // Adding blur effect
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+.glassy-subbox {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+.social_icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
 }
