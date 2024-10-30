@@ -16,7 +16,6 @@ function Footer() {
                         <p>
                             Founded in 2023, Lumilogic integrates AI with sustainability expertise to help organizations navigate and improve their sustainability practices.
                         </p>
-
                         <p>
                             <strong>Phone:</strong> <a href="tel:+46760620058" className="text-white">+46 76-062 00 58</a><br />
                             <strong>Email:</strong> <a href="mailto:contact@lumilogic.se" className="text-white">contact@lumilogic.se</a>
