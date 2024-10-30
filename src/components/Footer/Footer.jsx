@@ -12,9 +12,8 @@ function Footer() {
                 <div className="row">
                     {/* Company Info */}
                     <div className="col-md-4 mb-3">
-                        <h5>Lumilogic AB</h5>
                         <p>
-                            Founded in 2023, Lumilogic integrates AI with sustainability expertise to help organizations navigate and improve their sustainability practices.
+                            Simplify sustainability reporting with Lumilogic's AI solutions. Gain real-time, actionable insights to make informed decisions based on solid data.
                         </p>
                         <p>
                             <strong>Phone:</strong> <a href="tel:+46760620058" className="text-white">+46 76-062 00 58</a><br />
