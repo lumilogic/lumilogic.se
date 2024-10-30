@@ -12,6 +12,7 @@ function Footer() {
                 <div className="row">
                     {/* Company Info */}
                     <div className="col-md-4 mb-3">
+                        <h5>Lumilogic</h5>
                         <p>
                             Simplify sustainability reporting with Lumilogic's AI solutions. Gain real-time, actionable insights to make informed decisions based on solid data.
                         </p>
