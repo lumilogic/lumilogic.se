@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
     <url>
         <loc>
-            https://lumilogic.se/contact
+            https://lumilogic.se/#/contact
         </loc>
         <lastmod>
-            2024-10-31T02:04:34.089Z
+            2024-10-31T02:19:50.314Z
         </lastmod>
         <changefreq>
             weekly
@@ -16,10 +16,10 @@
     </url>
     <url>
         <loc>
-            https://lumilogic.se/research
+            https://lumilogic.se/#/research
         </loc>
         <lastmod>
-            2024-10-31T02:04:34.089Z
+            2024-10-31T02:19:50.314Z
         </lastmod>
         <changefreq>
             weekly
@@ -30,10 +30,10 @@
     </url>
     <url>
         <loc>
-            https://lumilogic.se/team
+            https://lumilogic.se/#/team
         </loc>
         <lastmod>
-            2024-10-31T02:04:34.089Z
+            2024-10-31T02:19:50.314Z
         </lastmod>
         <changefreq>
             weekly
@@ -47,7 +47,7 @@
             https://lumilogic.se/
         </loc>
         <lastmod>
-            2024-10-31T02:04:34.089Z
+            2024-10-31T02:19:50.314Z
         </lastmod>
         <changefreq>
             weekly
@@ -58,10 +58,10 @@
     </url>
     <url>
         <loc>
-            https://lumilogic.se/products/climatebug
+            https://lumilogic.se/#/products/climatebug
         </loc>
         <lastmod>
-            2024-10-31T02:04:34.089Z
+            2024-10-31T02:19:50.314Z
         </lastmod>
         <changefreq>
             weekly
@@ -72,10 +72,10 @@
     </url>
     <url>
         <loc>
-            https://lumilogic.se/products/sustainsight
+            https://lumilogic.se/#/products/sustainsight
         </loc>
         <lastmod>
-            2024-10-31T02:04:34.089Z
+            2024-10-31T02:19:50.314Z
         </lastmod>
         <changefreq>
             weekly
