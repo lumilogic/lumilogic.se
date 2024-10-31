@@ -26,6 +26,7 @@ export default defineConfig({
       dirs: [{ dir: 'src/views', baseRoute: '' }],
       async onRoutesGenerated(routes) {
         const getAllPaths = (route) => {
+
           const paths = [];
           if (route.path !== undefined) paths.push(route.path);
           if (route.children) {
@@ -40,9 +41,10 @@ export default defineConfig({
           .flatMap(getAllPaths)
           .map(path => {
             if (path === '/') return '/';  // Handle root path
-            return '/' + path.toLowerCase();  // Handle all other paths
+            return '/#/' + path.toLowerCase();  // Handle all other paths
           })
-          .filter(path => path === '/' || (!path.endsWith('/') && path !== '/products'));
+          .filter(path => path === '/' || (!path.endsWith('/') && path !== '/#/products'));
+
 
         await generateSitemap({
           hostname: 'https://lumilogic.se',

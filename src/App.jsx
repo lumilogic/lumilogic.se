@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 
-import { BrowserRouter as Router, Routes, useRoutes } from 'react-router-dom';
+import { useRoutes } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async'; // Import HelmetProvider
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
