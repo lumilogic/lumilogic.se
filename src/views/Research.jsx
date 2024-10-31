@@ -1,7 +1,8 @@
 import React from 'react';
-import './Research.scss'; // Importing the SCSS file for the Research component
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { Helmet } from 'react-helmet-async';
+
+
+import logo from '@assets/images/logo.png'; // Import the logo image
 
 function Research() {
 
@@ -23,6 +24,20 @@ function Research() {
     };
     return (
         <div className="research-page">
+
+            <Helmet>
+                <title>Lumilogic Research: Advancing AI in Sustainability</title>
+                <meta name="description" content="Explore Lumilogic's academic research in AI and sustainability assessment. Discover our latest studies applying NLP to analyze climate change discussions in banking." />
+                <meta name="keywords" content="Lumilogic Research, AI in Sustainability, Academic Research, Natural Language Processing, Climate Change Analysis, Sustainability Assessment, Banking Industry, climateBUG" />
+                <link rel="canonical" href="https://lumilogic.se/research" />
+
+                {/* OpenGraph Meta Tags for Social Media */}
+                <meta property="og:title" content="Lumilogic Research: Advancing AI in Sustainability" />
+                <meta property="og:description" content="Explore Lumilogic's academic research in AI and sustainability assessment. Discover our latest studies applying NLP to analyze climate change discussions in banking." />
+                <meta property="og:image" content={`https://lumilogic.se${logo}`} />
+                <meta property="og:url" content="https://lumilogic.se/research" />
+                <meta property="og:type" content="website" />
+            </Helmet>
 
             {/* Research Introduction Section */}
             <div className="hero-section align-items-center">

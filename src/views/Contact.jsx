@@ -1,5 +1,5 @@
 import React from 'react';
-import './Contact.scss'; // Importing the SCSS file for the Contact component
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareUpRight } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGoogleScholar } from '@fortawesome/free-brands-svg-icons';

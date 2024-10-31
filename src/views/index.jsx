@@ -1,7 +1,10 @@
 import React, { useRef } from 'react';
-import './Home.scss'; // Importing the SCSS file for the Home component
+import { Helmet } from 'react-helmet-async';
+
+
 import logo_medium from '@assets/images/logo_medium.png'; // Import the logo image
 import logo_small from '@assets/images/logo_small.png'; // Import the logo image
+import logo from '@assets/images/logo.png'; // Import the logo image
 import { Link } from 'react-router-dom';
 
 function Home() {
@@ -13,6 +16,21 @@ function Home() {
 
     return (
         <div className="home-page">
+
+            <Helmet>
+                {/* Standard SEO Meta Tags */}
+                <title>Advanced AI Solutions for Sustainable Business Practices | Lumilogic</title>
+                <meta name="description" content="Simplify sustainability reporting with Lumilogic's AI solutions. Gain real-time, actionable insights to make informed decisions based on solid data." />
+                <meta name="keywords" content="AI, Sustainability, Sustainability Reporting, Lumilogic, Data-Driven Decisions, Sustainable Business" />
+                <link rel="canonical" href="https://lumilogic.se/" />
+
+                {/* OpenGraph Meta Tags for Social Media */}
+                <meta property="og:title" content="Advanced AI Solutions for Sustainable Business Practices | Lumilogic" />
+                <meta property="og:description" content="Simplify sustainability reporting with Lumilogic's AI solutions. Gain real-time, actionable insights to make informed decisions based on solid data." />
+                <meta property="og:image" content={`https://lumilogic.se${logo}`} />
+                <meta property="og:url" content="https://lumilogic.se/" />
+                <meta property="og:type" content="website" />
+            </Helmet>
 
             {/* Hero Section */}
             <div className="hero-section align-items-center">
@@ -94,7 +112,7 @@ function Home() {
                                     <li><strong>Automated Reporting:</strong> Streamline the reporting process, ensuring alignment with SDGs and sustainability goals through automation.</li>
                                 </ul>
                                 <div className="text-center mt-4">
-                                    <Link to="/sustainsight" className="btn btn-secondary">
+                                    <Link to="/products/sustainsight" className="btn btn-secondary">
                                         Discover SustainSight
                                     </Link>
                                 </div>
@@ -115,7 +133,7 @@ function Home() {
                                     <li><strong>Flexible API Access:</strong> Utilize robust APIs to extract customized insights, compatible with leading deep learning frameworks.</li>
                                 </ul>
                                 <div className="text-center mt-4">
-                                    <Link to="/climatebug" className="btn btn-secondary">
+                                    <Link to="/products/climatebug" className="btn btn-secondary">
                                         Explore climateBUG Pro
                                     </Link>
                                 </div>

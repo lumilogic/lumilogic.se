@@ -34,8 +34,8 @@ function Navbar() {
                                 Products
                             </a>
                             <ul className="dropdown-menu">
-                                <li><Link className="dropdown-item" to="/sustainsight">SustainSight</Link></li>
-                                <li><Link className="dropdown-item" to="/climatebug">climateBUG <img src={climateBugLogo} height="25pt" alt="ClimateBug logo" /></Link></li>
+                                <li><Link className="dropdown-item" to="/products/sustainsight">SustainSight</Link></li>
+                                <li><Link className="dropdown-item" to="/products/climatebug">climateBUG <img src={climateBugLogo} height="25pt" alt="ClimateBug logo" /></Link></li>
                             </ul>
                         </li>
                         <li className="nav-item">

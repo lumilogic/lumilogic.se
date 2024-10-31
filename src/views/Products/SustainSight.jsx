@@ -1,11 +1,27 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
+
 import { Link } from 'react-router-dom'; // Assuming you are using react-router
-import './Products.scss'; // Importing the SCSS file for the Products component
+
 import sustainsightImage from '@assets/images/sustainsight_computer.jpg'; // Import the image for SustainSight
 
 function SustainSightProduct() {
     return (
         <div className="product-page">
+
+            <Helmet>
+                <title>SustainSight by Lumilogic: AI-Powered Sustainability Reporting</title>
+                <meta name="description" content="Simplify sustainability reporting with SustainSight's AI-powered platform. Gain actionable insights, benchmark performance, and automate reporting to achieve your sustainability goals." />
+                <meta name="keywords" content="SustainSight, AI-Powered, Sustainability Reporting, Sustainability Assessment, Lumilogic, Actionable Insights, Benchmark Performance, Automate Reporting, Sustainability Goals" />
+                <link rel="canonical" href="https://lumilogic.se/sustainsight" />
+
+                {/* OpenGraph Meta Tags for Social Media */}
+                <meta property="og:title" content="SustainSight by Lumilogic: AI-Powered Sustainability Reporting" />
+                <meta property="og:description" content="Simplify sustainability reporting with SustainSight's AI-powered platform. Gain actionable insights, benchmark performance, and automate reporting to achieve your sustainability goals." />
+                <meta property="og:image" content={`https://lumilogic.se${sustainsightImage}`} />
+                <meta property="og:url" content="https://lumilogic.se/sustainsight" />
+                <meta property="og:type" content="website" />
+            </Helmet>
 
             {/* Product Introduction Section */}
             <div className="hero-section align-items-center">

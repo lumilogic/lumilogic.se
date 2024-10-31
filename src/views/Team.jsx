@@ -1,4 +1,6 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
+
 import './Team.scss'; // Importing the SCSS file for the Home component
 // Add import statements for images if you have individual photos of team members
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -12,11 +14,27 @@ import mattias from '@assets/images/profile_pictures/mattias_round.jpg'; // Impo
 import jasmine from '@assets/images/profile_pictures/jasmine_round.jpg'; // Import the logo image
 import sverker from '@assets/images/profile_pictures/sverker_round.png'; // Import the logo image
 
+import logo from '@assets/images/logo.png'; // Import the logo image
+
 
 function Team() {
     return (
 
         <div className="team">
+
+            <Helmet>
+                <title>Meet the Lumilogic Team: Experts in AI and Sustainability</title>
+                <meta name="description" content="Discover the minds behind Lumilogic's AI solutions for sustainability. Our team blends AI specialists, sustainability academics, and entrepreneurs committed to positive impact." />
+                <meta name="keywords" content="Lumilogic Team, AI Experts, Sustainability Experts, Meet the Team, AI Specialists, Sustainability Academics, Experienced Entrepreneurs, Natural Language Processing, Environmental Economics" />
+                <link rel="canonical" href="https://lumilogic.se/team" />
+
+                {/* OpenGraph Meta Tags for Social Media */}
+                <meta property="og:title" content="Meet the Lumilogic Team: Experts in AI and Sustainability" />
+                <meta property="og:description" content="Discover the minds behind Lumilogic's AI solutions for sustainability. Our team blends AI specialists, sustainability academics, and entrepreneurs committed to positive impact." />
+                <meta property="og:image" content={`https://lumilogic.se${logo}`} />
+                <meta property="og:url" content="https://lumilogic.se/team" />
+                <meta property="og:type" content="website" />
+            </Helmet>
 
 
             <div className="hero-section align-items-center">

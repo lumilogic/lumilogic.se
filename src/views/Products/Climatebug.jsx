@@ -1,11 +1,28 @@
 import React from 'react';
-import './Products.scss'; // Importing the SCSS file for the Products component
+import { Helmet } from 'react-helmet-async';
+
+
 import climateBugImage from '@assets/images/climatebug_overview.png'; // Import an image from the paper
 import climateBugLogo from '@assets/images/climatebug.png'; // Import another image from the paper
 
 function ClimateBugProduct() {
     return (
         <div className="product-page">
+
+
+            <Helmet>
+                <title>climateBUG Pro by Lumilogic: AI for Climate Disclosure Analysis</title>
+                <meta name="description" content="Automate climate-related data analysis with climateBUG Pro by Lumilogic. Use AI and NLP to uncover trends, ensure compliance, and enhance sustainability strategies in finance." />
+                <meta name="keywords" content="climateBUG Pro, AI, Climate Disclosure Analysis, Lumilogic, Natural Language Processing, Financial Institutions, Regulatory Compliance, Sustainability Strategies, Climate Data Analysis" />
+                <link rel="canonical" href="https://lumilogic.se/climatebug" />
+
+                {/* OpenGraph Meta Tags for Social Media */}
+                <meta property="og:title" content="climateBUG Pro by Lumilogic: AI for Climate Disclosure Analysis" />
+                <meta property="og:description" content="Automate climate-related data analysis with climateBUG Pro by Lumilogic. Use AI and NLP to uncover trends, ensure compliance, and enhance sustainability strategies in finance." />
+                <meta property="og:image" content={`https://lumilogic.se${climateBugLogo}`} /> {/* Ensure this URL is correct */}
+                <meta property="og:url" content="https://lumilogic.se/climatebug" />
+                <meta property="og:type" content="website" />
+            </Helmet>
 
 
 
