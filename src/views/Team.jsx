@@ -23,14 +23,14 @@ function Team() {
         <div className="team">
 
             <Helmet>
-                <title>Meet the Lumilogic Team: Experts in AI and Sustainability</title>
+                <title>Meet the Lumilogic Funders: Experts in AI and Sustainability</title>
                 <meta name="description" content="Discover the minds behind Lumilogic's AI solutions for sustainability. Our team blends AI specialists, sustainability academics, and entrepreneurs committed to positive impact." />
-                <meta name="keywords" content="Lumilogic Team, AI Experts, Sustainability Experts, Meet the Team, AI Specialists, Sustainability Academics, Experienced Entrepreneurs, Natural Language Processing, Environmental Economics" />
+                <meta name="keywords" content="Lumilogic Founders, AI Experts, Sustainability Experts, Meet the Team, AI Specialists, Sustainability Academics, Experienced Entrepreneurs, Natural Language Processing, Environmental Economics" />
                 <link rel="canonical" href="https://lumilogic.se/team" />
 
                 {/* OpenGraph Meta Tags for Social Media */}
-                <meta property="og:title" content="Meet the Lumilogic Team: Experts in AI and Sustainability" />
-                <meta property="og:description" content="Discover the minds behind Lumilogic's AI solutions for sustainability. Our team blends AI specialists, sustainability academics, and entrepreneurs committed to positive impact." />
+                <meta property="og:title" content="Meet the Lumilogic Founders: Experts in AI and Sustainability" />
+                <meta property="og:description" content="Discover the minds behind Lumilogic's AI solutions for sustainability. Our founders blends AI specialists, sustainability academics, and entrepreneurs committed to positive impact." />
                 <meta property="og:image" content={`https://lumilogic.se${logo}`} />
                 <meta property="og:url" content="https://lumilogic.se/team" />
                 <meta property="og:type" content="website" />
@@ -46,9 +46,8 @@ function Team() {
 
                     <div className="glassy-box p-4 rounded shadow">
                         <div className='row'>
-                            <h1 className="text-center mb-5">Meet the Lumilogic Team</h1>
-                            <p>At the core of Lumilogic's innovative approach to sustainability assessments are the minds and talents of our diverse team. Our unique blend of AI & NLP specialists, leading academics in sustainability, and experienced entrepreneurs, our team is united by a shared mission to leveraging AI for positive impact.</p>
-
+                            <h1 className="text-center mb-5">Meet the Lumilogic Founders</h1>
+                            <p>At the core of Lumilogic's innovative approach to sustainability assessments are the minds and talents of our diverse founders. Our unique blend of AI & NLP specialists, leading academics in sustainability, and experienced entrepreneurs is united by a shared mission to leverage AI for positive impact.</p>
                         </div>
                         {/* </div> */}
 
@@ -122,7 +121,8 @@ function Team() {
                                         <a href="https://scholar.google.com/citations?hl=en&user=UQ4p2LoAAAAJ" target="_blank" rel="noopener noreferrer" className='social_icon'><FontAwesomeIcon icon={faGoogleScholar} /></a>
                                     </div>
                                 </div>
-                                <p>With over two decades of experience in environmental economics, Åsa's knowledge shapes Lumilogic's strategic focus on sustainability. Her work as an Associate Professor in Environmental Economics at the University of Gothenburg and involvement with national climate policy bodies ensure that Lumilogic's assessments are robust and aligned with the latest sustainability standards.</p>
+                                <p>With over two decades of experience in environmental economics, Åsa's knowledge shapes Lumilogic's strategic focus on sustainability. Her involvement with national climate policy bodies ensures that Lumilogic's assessments are robust and aligned with the latest sustainability standards.</p>
+
                             </div>
                         </div>
 
