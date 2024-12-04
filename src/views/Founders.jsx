@@ -121,8 +121,7 @@ function Team() {
                                         <a href="https://scholar.google.com/citations?hl=en&user=UQ4p2LoAAAAJ" target="_blank" rel="noopener noreferrer" className='social_icon'><FontAwesomeIcon icon={faGoogleScholar} /></a>
                                     </div>
                                 </div>
-                                <p>With over two decades of experience in environmental economics, Åsa's knowledge shapes Lumilogic's strategic focus on sustainability. Her involvement with national climate policy bodies ensures that Lumilogic's assessments are robust and aligned with the latest sustainability standards.</p>
-
+                                <p>With over two decades of experience in environmental economics, Åsa brings extensive expertise to Lumilogic's sustainability strategy. Her work on climate policy and practical insights into policy implementation ensure that Lumilogic's assessments are both rigorous and aligned with the latest sustainability standards.</p>
                             </div>
                         </div>
 
