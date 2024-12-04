@@ -9,10 +9,10 @@ import { faLinkedin, faGoogleScholar } from '@fortawesome/free-brands-svg-icons'
 
 import yinan from '@assets/images/profile_pictures/yinan_round.jpg'; // Import the logo image
 import samuel from '@assets/images/profile_pictures/samuel.jpg'; // Import the logo image
-import asa from '@assets/images/profile_pictures/asa_round.png'; // Import the logo image
+import asa from '@assets/images/profile_pictures/asa_round.jpg'; // Import the logo image
 import mattias from '@assets/images/profile_pictures/mattias_round.jpg'; // Import the logo image
 import jasmine from '@assets/images/profile_pictures/jasmine_round.jpg'; // Import the logo image
-import sverker from '@assets/images/profile_pictures/sverker_round.png'; // Import the logo image
+import sverker from '@assets/images/profile_pictures/sverker_round.jpg'; // Import the logo image
 
 import logo from '@assets/images/logo.png'; // Import the logo image
 
