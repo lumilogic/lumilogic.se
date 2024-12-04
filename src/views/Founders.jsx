@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
-import './Team.scss'; // Importing the SCSS file for the Home component
+import './Founders.scss'; // Importing the SCSS file for the Home component
 // Add import statements for images if you have individual photos of team members
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareUpRight } from '@fortawesome/free-solid-svg-icons'

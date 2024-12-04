@@ -2,9 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.scss';
 import logo_small from '@assets/images/logo_small.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
-import climateBugLogo from '@assets/images/climatebug.png';
+import climateBugLogo from '@assets/images/climatebug_small.png';
 
 function Navbar() {
     const [scrolled, setScrolled] = useState(false);

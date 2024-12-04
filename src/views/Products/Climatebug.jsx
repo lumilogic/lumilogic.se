@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 
 
 import climateBugImage from '@assets/images/climatebug_overview.png'; // Import an image from the paper
-import climateBugLogo from '@assets/images/climatebug.png'; // Import another image from the paper
+import climateBugLogo from '@assets/images/climatebug_medium.png'; // Import another image from the paper
 
 function ClimateBugProduct() {
     return (
@@ -35,7 +35,13 @@ function ClimateBugProduct() {
 
                         {/* Column for logo */}
                         <div className="col-lg-auto d-none d-lg-flex">
-                            <img src={climateBugLogo} alt="climateBUG logo" className="img-fluid" />
+                            <img
+                                src={climateBugLogo}
+                                alt="climateBUG logo"
+                                className="img-fluid"
+                                width="400"
+                                height="400"
+                            />
                         </div>
 
                         {/* Column for text */}

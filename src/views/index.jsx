@@ -38,7 +38,12 @@ function Home() {
                     <div className="hero-box row align-items-center">
                         {/* Column for logo */}
                         <div className="col-lg-auto d-none d-lg-flex">
-                            <img src={logo_medium} alt="Lumilogic logo" className="img-fluid" />
+                            <img
+                                src={logo_medium}
+                                alt="Lumilogic logo"
+                                className="img-fluid"
+                                width="400"
+                                height="400" />
                         </div>
 
                         {/* Column for text */}

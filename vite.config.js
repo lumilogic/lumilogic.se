@@ -13,6 +13,9 @@ export default defineConfig({
       { find: '~bootstrap', replacement: resolve(__dirname, 'node_modules/bootstrap') },
     ],
   },
+  build: {
+    target: 'es2015',
+  },
   css: {
     preprocessorOptions: {
       scss: {

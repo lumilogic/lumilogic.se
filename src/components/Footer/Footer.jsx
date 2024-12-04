@@ -1,8 +1,7 @@
 import React from 'react';
 import './Footer.scss'; // Import the SCSS file for footer styling
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSquareUpRight } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin, faGoogleScholar } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 
 function Footer() {

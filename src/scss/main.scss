@@ -15,9 +15,22 @@ h1 {
     // height: auto;
     min-height: 500px;
 
-    background: linear-gradient(transparent, $body-bg),
-        url('@assets/images/hero-bg2.jpg') no-repeat center center;
+    background: linear-gradient(transparent, $body-bg);
+
+    // Fallback for browsers without WebP support
+    background-image:
+        linear-gradient(transparent, $body-bg),
+        url('@assets/images/hero-bg2.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    // Override for browsers that support WebP
+    @supports (background-image: url('@assets/images/hero-bg2.webp')) {
+        background-image:
+            linear-gradient(transparent, $body-bg),
+            url('@assets/images/hero-bg2.webp');
+    }
 
 
 }
@@ -49,7 +62,8 @@ h1 {
     }
 
     .img-fluid {
-        max-width: 400px;
+        max-width: 100%;
+        height: auto;
         margin: 2.5rem;
     }
 
