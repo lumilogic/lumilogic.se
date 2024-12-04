@@ -31,7 +31,7 @@ function Footer() {
                             <li><a href="/#sustainsight" className="text-white">SustainSight</a></li>
                             <li><a href="/#climatebug" className="text-white">climateBUG</a></li>
                             <li><a href="/#research" className="text-white">Research</a></li>
-                            <li><a href="/#team" className="text-white">Meet the Team</a></li>
+                            <li><a href="/#founders" className="text-white">Meet the Founders</a></li>
                             <li><a href="/#contact" className="text-white">Contact</a></li>
                         </ul>
                     </div>

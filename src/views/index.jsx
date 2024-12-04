@@ -82,8 +82,8 @@ function Home() {
                     <div className='row'>
                         <div className='col'>
                             <div className="text-center mt-4">
-                                <Link to="/team" className="btn btn-secondary">
-                                    Meet the Team
+                                <Link to="/founders" className="btn btn-secondary">
+                                    Meet the Founders
                                 </Link>
                             </div>
                         </div>
