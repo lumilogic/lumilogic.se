@@ -65,6 +65,18 @@ function Research() {
                             "https://dx.doi.org/10.2139/ssrn.4822293"
                         )}
                     </div>
+                    <div className='col my-3'>
+                        {renderPaper(
+                            "Do Business and Economics Studies Erode Prosocial Values?",
+                            "Mattias Sundemo, Åsa Löfgren",
+                            "Southern Economic Journal (forthcoming)",
+                            "2024",
+                            "Does exposure to business and economics education make students less prosocial and more selfish? Employing a difference-in-difference strategy with panel data from three subsequent cohorts of students enrolled in a Business and Economics bachelor’s program (>900 students), we find that business and economics students become less prosocial over time relative to a control group of comparable students. Importantly, younger students appear to be significantly more malleable with respect to their prosocial values. Furthermore, we observe heterogeneous effects across majors such as accounting, finance, and economics. Our research demonstrates a strong correlation between prosocial values and generous behavior.",
+                            "#"
+                        )}
+                    </div>
+                </div>
+                <div className='row'>
 
                     <div className='col my-3'>
 
