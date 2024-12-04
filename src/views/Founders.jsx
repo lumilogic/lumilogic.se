@@ -99,7 +99,7 @@ function Team() {
                                     <div>
                                         <a href="https://www.linkedin.com/in/yinanyu/" target="_blank" rel="noopener noreferrer" className='social_icon'><FontAwesomeIcon icon={faLinkedin} /></a>
                                         <a href="https://scholar.google.com/citations?user=z3p7ALcAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" className='social_icon'><FontAwesomeIcon icon={faGoogleScholar} /></a>
-                                        <a href="https://usableai.se/members/yinan" target="_blank" rel="noopener noreferrer" className='social_icon'><FontAwesomeIcon icon={faSquareUpRight} /></a>
+                                        <a href="https://www.chalmers.se/en/persons/yinan/" target="_blank" rel="noopener noreferrer" className='social_icon'><FontAwesomeIcon icon={faSquareUpRight} /></a>
                                     </div>
                                 </div>
                                 <p >Yinan's expertise in machine learning and natural language is crucial to Lumilogic's mission, as she develops algorithms to analyze sustainability data for actionable insights. As an Assistant Professor at Chalmers University, she ensures that Lumilogic's AI-driven platform is at the forefront of technology.</p>
