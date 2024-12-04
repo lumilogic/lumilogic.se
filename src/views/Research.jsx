@@ -55,17 +55,7 @@ function Research() {
             <div className="container my-3">
 
                 <div className='row'>
-                    <div className='col my-3'>
-                        {renderPaper(
-                            "Unpacking Banks' Response to Societal Expectations: An NLP Analysis of European Banks' Discussion of Climate Change",
-                            "Åsa Löfgren, Jasmine Elliott, Yinan Yu, Samuel Scheidegger",
-                            "SSRN",
-                            "2024",
-                            "We employ Natural Language Processing (NLP) to analyze the discussion of climate change in European banks' annual reporting and how they align with expectations of banks' role in the climate transition. Our analysis covers over 1.5 million statements, finding that an average of 7% of the annual reporting content pertains to climate change. We find there is a trend towards decarbonizing consumer products and banks' own operations; yet, less attention is given to financed emissions. The study highlights the utility of NLP in analyzing complex qualitative datasets and points to the potential impact of upcoming EU regulations on future disclosures.",
-                            "https://dx.doi.org/10.2139/ssrn.4822293"
-                        )}
-                    </div>
-                    <div className='col my-3'>
+                    <div className='col-md-6 my-3'>
                         {renderPaper(
                             "Do Business and Economics Studies Erode Prosocial Values?",
                             "Mattias Sundemo, Åsa Löfgren",
@@ -75,10 +65,21 @@ function Research() {
                             "#"
                         )}
                     </div>
+                    <div className='col-md-6 my-3'>
+                        {renderPaper(
+                            "Unpacking Banks' Response to Societal Expectations: An NLP Analysis of European Banks' Discussion of Climate Change",
+                            "Åsa Löfgren, Jasmine Elliott, Yinan Yu, Samuel Scheidegger",
+                            "SSRN",
+                            "2024",
+                            "We employ Natural Language Processing (NLP) to analyze the discussion of climate change in European banks' annual reporting and how they align with expectations of banks' role in the climate transition. Our analysis covers over 1.5 million statements, finding that an average of 7% of the annual reporting content pertains to climate change. We find there is a trend towards decarbonizing consumer products and banks' own operations; yet, less attention is given to financed emissions. The study highlights the utility of NLP in analyzing complex qualitative datasets and points to the potential impact of upcoming EU regulations on future disclosures.",
+                            "https://dx.doi.org/10.2139/ssrn.4822293"
+                        )}
+                    </div>
+
                 </div>
                 <div className='row'>
 
-                    <div className='col my-3'>
+                    <div className='col-md-6 my-3'>
 
                         {renderPaper(
                             "climateBUG: A Data-Driven Framework for Analyzing Bank Reporting Through a Climate Lens",
