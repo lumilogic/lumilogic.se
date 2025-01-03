@@ -94,6 +94,19 @@ function Research() {
 
                     </div>
 
+
+                    <div className='col-md-6 my-3'>
+                        {renderPaper(
+                            "If money talks, what is the banking industry saying about climate change?",
+                            "Jasmine Elliott & Åsa Löfgren",
+                            "Climate Policy, Vol. 22, No. 6",
+                            "2022",
+                            "Major banks are facing increased public pressure to reduce financing for fossil fuel projects. In this decade of action for the UN Sustainable Development Goals (with a focus on SDG 13 – climate action), all sectors, including the financial sector, are urged to recognize the ways in which they impact these goals and how they can best contribute to their realization. But how are the top 10 most active banks in financing the fossil fuel industry responding to this pressure? Using qualitative textual analysis of these banks’ annual reports and a proposed categorization of how banks are talking about climate change, the authors highlight how these banks see their role in reducing climate impacts through their financing and whether their response has evolved since the Paris Agreement. While there has been an increase in climate change discussions post-Paris Agreement, the paper finds few clear commitments regarding fossil fuel financing, suggesting a gap between public expectations and banks’ self-acknowledged responsibilities.",
+                            "https://doi.org/10.1080/14693062.2022.2036090"
+                        )}
+                    </div>
+
+
                 </div>
             </div>
 
